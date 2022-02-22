@@ -1076,4 +1076,4 @@ def TempAbajo(arg):
 OpenIMG = PhotoImage(file="Fotos InterfacesGraficas\open.png")
 Button(root,image=OpenIMG,command=Menu_Hamburguesa,border=0,bg="white",activebackground="white",cursor="hand2").place(x=5,y=10)
 
-root.mainloop()
+root.mainloop() 
