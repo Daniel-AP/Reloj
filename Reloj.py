@@ -845,7 +845,7 @@ def Temporizador():
         TempLabel = Label(FrameTemp,text="00:00:00",font=("Helvetica",100),bg="white")
         TempLabel.place(x=90,y=100)
 
-        Label(FrameTemp,text="Horas" + " "*21 + "Minutos" + " "*18 + "Segundos",font=("Helvetica"),fg="#12c4c0",bg="white").place(x=140,y=10)
+        Label(FrameTemp,text="Horas" + " "*20 + "Minutos" + " "*18 + "Segundos",font=("Helvetica",15),fg="#12c4c0",bg="white").place(x=140,y=10)
         Button(FrameTemp,command=lambda:TempArriba("HorasTemp"),image=ArribaIMG,bg="white",activebackground="white",border=0).place(x=148,y=75)
         Button(FrameTemp,command=lambda:TempArriba("MinutosTemp"),image=ArribaIMG,bg="white",activebackground="white",border=0).place(x=332,y=75)
         Button(FrameTemp,command=lambda:TempArriba("SegundosTemp"),image=ArribaIMG,bg="white",activebackground="white",border=0).place(x=516,y=75)
